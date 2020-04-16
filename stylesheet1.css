@@ -1,0 +1,242 @@
+
+body{         width: 100%;
+              margin: auto;
+              text-align: center;
+              color: #3B3A3A;
+              font-family: 'Nunito', sans-serif;
+              letter-spacing: 1px;}
+
+/*html{ 
+  background: url(img/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1;
+
+  
+}
+
+
+
+/*----nav styling section----*/
+
+.monogram{
+    text-align: left;
+}
+
+.monogram img{
+     text-align: left;
+     width: 2.8em;
+     height: 2.6em;
+     padding: .75em;
+     position:fixed;
+     background-color: none;
+     z-index: 2;}
+
+nav{ 
+     position: relative;
+     width: 100%;}
+
+        nav ul{  margin: auto;
+                 padding: 1.5em;
+                 text-align: right;
+                 text-transform: lowercase;
+                 letter-spacing: 1px;
+                 word-spacing: 3em;
+                 font-size: 12px;}
+
+
+
+        nav ul li{ 
+                   display: inline-block;
+                   position: right;
+                   }
+
+
+        nav a:link{ color: #121212;
+                    text-decoration: none;}
+
+        nav a:visited{ color: #121212}
+
+        nav a:hover{ border-bottom: none;                          color: #9ECED2}
+
+
+/*----END of button styling section----*/
+
+
+/*----main styling section----*/
+
+
+.main{ 
+   
+      background: url(img/background1.jpg) no-repeat center center ; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: 100%;
+      background-size: cover;
+
+
+}
+
+
+.main2{ 
+   
+      background: url(img/background2.jpg) no-repeat center center ; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: 100%;
+      background-size: cover;
+
+
+}
+
+
+/*----END of connect styling section----*/
+
+
+
+
+
+
+/*----text styling section----*/
+
+.hello h1{
+    padding-top: 0.3em;
+    color: #000;
+    font-family: 'Ribeye', 'Nunito', 'sans serif';
+    font-size: 3em;
+}
+
+
+.intro{
+    text-align: center;
+    color: #3B3A3A;
+    font-family: 'Nunito', 'Libre Franklin', 'sans serif';
+    font-size: 1.5em;
+    padding-bottom: 8em;
+   
+    
+}
+
+.intro2 { 
+    text-align: center;
+    position: relative;
+    font-size: 5em;
+    
+    
+}
+
+
+p{  padding-left: 1em;
+    padding-right: 1em;
+    margin: 3em;
+    grid-column: 2;
+    font-size: 1em;
+   
+    
+}
+
+
+h1, h2, h3, h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+h2 {
+    margin-top: 1em;
+    padding-bottom: 1em;
+    grid-column: 2;
+    color: #000;
+    font-family: 'Ribeye', 'Nunito', 'sans serif';
+    font-size: 2em;
+     
+} 
+    
+
+
+h3{ 
+    text-align: center;
+    color: #000;
+    font-family: 'Nunito', 'Libre Franklin', 'sans serif';
+    font-size: 2em;
+    
+}
+
+
+h4{
+    text-align: center;
+    color: #000;
+    font-family: 'Nunito', 'sans serif';
+    font-size: 1.5em;
+}
+
+
+.connect-text{
+    padding-top: 12em;
+   
+    font-size: .75em;
+}
+
+
+.footer{
+    padding: 0.5em;
+    font-size: 0.5em;
+}
+
+
+/*-----image styling------*/
+
+
+.image img{ padding: 2em;
+            height: 66.6%;
+            width: 66.6%}
+
+.image2 img{ padding: 2em;
+            height: 33.3%;
+            width: 33.3%}
+
+.bottom-image img{ 
+            height: 100%;
+            width: 100%}
+
+.buttons a:hover img { 
+            border-bottom: none;
+            transition: all 0.3s ease-in-out; transform:scale(1.1)}
+
+.buttons{
+    grid-column: 2;
+}
+
+.buttons img{    
+     
+     text-align: left;
+     width: 33%;
+     height: auto;
+    
+    
+}
+
+.glass img{
+    grid-column: 2;
+    width: 33.3%;
+    
+}
+
+.ingredients img{
+    grid-column: 1;
+    width: 33.3%;
+    
+}
+
+
+/*-----END of button styling section----*/
+
+
